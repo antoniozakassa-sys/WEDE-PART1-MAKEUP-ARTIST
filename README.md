@@ -91,4 +91,4 @@ See `sitemap` for the diagram source.
 - Added: this README.md
 
 ## References
-General/technical sources referenced while building this site are listed in `content-research/references/references.md` inside `content-research.zip`. Organisation-specific sources used for the Website Project Proposal are listed in that document's own References section. **Combine and format both according to the referencing style required by your institution before final submission** — see the Referencing Rubric provided by your lecturer for consistency and congruency requirements.
+General/technical sources referenced while building this site are listed in `content-research/references/references.md` inside `content-research`. Organisation-specific sources used for the Website Project Proposal are listed in that document's own References section.
