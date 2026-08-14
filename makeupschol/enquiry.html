@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enquire | Marlowe & Muse</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1>Marlowe <span>&amp; Muse</span></h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="enquiry.html">Enquire</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Tell me about your date</h2>
+    <p>Fill in as much as you can. I reply to every enquiry within two business days.</p>
+  </section>
+
+  <main>
+    <section class="section">
+
+      <!-- This message is hidden by default. main.js shows it after a successful submit -->
+      <div class="success-message" id="enquiry-success">
+        Thank you! Your enquiry has been received. I'll be in touch within two business days.
+      </div>
+
+      <!-- The id="enquiry-form" is used by main.js to find this form -->
+      <form id="enquiry-form">
+
+        <label for="full-name">Full name</label>
+        <input type="text" id="full-name" name="full-name" required>
+
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone number</label>
+        <input type="tel" id="phone" name="phone">
+
+        <label for="event-date">Event date</label>
+        <input type="date" id="event-date" name="event-date" required>
+
+        <!-- Grouping related radio buttons with fieldset/legend -->
+        <fieldset>
+          <legend>What are you enquiring about?</legend>
+          <label><input type="radio" name="service-type" value="bridal" checked> Bridal</label><br>
+          <label><input type="radio" name="service-type" value="editorial"> Editorial / Shoot</label><br>
+          <label><input type="radio" name="service-type" value="occasion"> Special Occasion</label><br>
+          <label><input type="radio" name="service-type" value="other"> Other</label>
+        </fieldset>
+
+        <label for="headcount">Number of people needing makeup</label>
+        <input type="number" id="headcount" name="headcount" min="1" value="1">
+
+        <label for="venue">Venue / suburb</label>
+        <input type="text" id="venue" name="venue" placeholder="e.g. Muldersdrift, Sandton, Pretoria">
+
+        <fieldset>
+          <legend>Add-ons you're interested in (optional)</legend>
+          <label><input type="checkbox" name="addons" value="lashes"> Individual lashes</label><br>
+          <label><input type="checkbox" name="addons" value="airbrush"> Airbrush foundation</label><br>
+          <label><input type="checkbox" name="addons" value="early-start"> Early start (before 06:00)</label>
+        </fieldset>
+
+        <label for="details">Tell me more about your event</label>
+        <textarea id="details" name="details" placeholder="Ceremony time, style inspiration, number of bridesmaids..."></textarea>
+
+        <p><small>This is a student project demo - no data is actually sent anywhere.</small></p>
+
+        <button type="submit">Send enquiry</button>
+      </form>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Marlowe &amp; Muse Makeup Studio - Johannesburg, South Africa</p>
+    <p>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="services.html">Services</a> |
+      <a href="enquiry.html">Enquire</a> |
+      <a href="contact.html">Contact</a>
+    </p>
+    <p>&copy; 2026 Marlowe &amp; Muse. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

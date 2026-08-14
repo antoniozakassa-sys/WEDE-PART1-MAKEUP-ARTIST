@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Marlowe & Muse</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1>Marlowe <span>&amp; Muse</span></h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="enquiry.html">Enquire</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Two studios. One artist.</h2>
+    <p>Trials happen at one of two studio spaces. All wedding-day and shoot work happens on location.</p>
+  </section>
+
+  <main>
+
+    <!-- Two map boxes, one for each studio location -->
+    <section class="section">
+      <h2>Our locations</h2>
+
+      <div class="row">
+        <div class="column" style="width: 48%;">
+          <div class="map-box">
+            <iframe
+              src="https://www.google.com/maps?q=Melville,+Johannesburg,+South+Africa&output=embed"
+              title="Map of the Melville studio">
+            </iframe>
+            <div class="map-text">
+              <h3>Melville Studio</h3>
+              <p>7th Street, Melville, Johannesburg, 2109<br>Trials by appointment, Tue-Fri</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column" style="width: 48%;">
+          <div class="map-box">
+            <iframe
+              src="https://www.google.com/maps?q=Hatfield,+Pretoria,+South+Africa&output=embed"
+              title="Map of the Pretoria studio">
+            </iframe>
+            <div class="map-text">
+              <h3>Pretoria Partner Studio</h3>
+              <p>Hatfield, Pretoria, 0083<br>Trials by appointment, one Saturday a month</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact details and a simple contact form -->
+    <section class="section section-alt">
+      <h2>Get in touch</h2>
+      <p>For availability checks and quotes, please use the <a href="enquiry.html">enquiry form</a> instead. Use this form for general questions.</p>
+      <p>
+        <strong>Email:</strong> hello@marloweandmuse.co.za<br>
+        <strong>Phone / WhatsApp:</strong> 082 000 0000<br>
+        <strong>Instagram:</strong> @marloweandmuse
+      </p>
+
+      <div class="success-message" id="contact-success">
+        Thanks for your message! I'll get back to you shortly.
+      </div>
+
+      <form id="contact-form">
+        <label for="c-name">Name</label>
+        <input type="text" id="c-name" name="c-name" required>
+
+        <label for="c-email">Email address</label>
+        <input type="email" id="c-email" name="c-email" required>
+
+        <label for="c-message">Message</label>
+        <textarea id="c-message" name="c-message" required></textarea>
+
+        <button type="submit">Send message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Marlowe &amp; Muse Makeup Studio - Johannesburg, South Africa</p>
+    <p>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="services.html">Services</a> |
+      <a href="enquiry.html">Enquire</a> |
+      <a href="contact.html">Contact</a>
+    </p>
+    <p>&copy; 2026 Marlowe &amp; Muse. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
