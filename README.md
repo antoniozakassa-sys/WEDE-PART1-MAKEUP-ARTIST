@@ -37,6 +37,94 @@ The site is a static, five-page HTML/CSS/JS website with no backend — form sub
 - Client-side form validation and success-state feedback (`js/main.js`)
 - Accessibility basics: skip-to-content link, visible focus states, semantic landmarks (`header`, `nav`, `main`, `footer`), `prefers-reduced-motion` support
 - Custom design system (see `marlowe-muse/css/styles.css`): plum/brass editorial palette, Fraunces + Inter type pairing, deliberately avoiding generic "beauty pastel" templates
+## Budget
+.1 One-Time Start-Up / Capital Costs
+Item
+Cost (ZAR)
+Notes
+Professional makeup kit build-out
+R18,000
+Foundation range (multiple shades), concealers, eyeshadow palettes, brushes, sponges, sanitiser, disposables
+Rolling kit case / station
+R3,500
+Includes ring light and portable mirror for on-location setup
+Business registration (sole proprietor trading name)
+R450
+CIPC name reservation and registration
+Portfolio photoshoot
+R4,500
+Photographer, 2 models, studio hire for initial portfolio content
+Logo & brand identity
+R1,800
+Outsourced to a freelance designer; colour palette and logo mark
+Business cards & printed collateral
+R650
+250 cards, price list cards for bridal fairs
+Domain registration (.co.za, year 1)
+R200
+marloweandmuse.co.za
+Website hosting (year 1)
+R0
+GitHub Pages / Netlify free tier
+Stock/original imagery for website
+R1,200
+Small licensed image package to supplement original photography
+Subtotal: Start-up costs
+R30,300
+
+ Recurring Monthly Operating Costs
+Item
+Cost (ZAR/month)
+Notes
+Product replenishment
+R1,100
+Foundation, lashes, disposables, brush cleaner, sanitiser
+Transport & fuel
+R2,000
+On-location travel across Johannesburg, Pretoria and surrounds
+Phone & mobile data
+R400
+Client calls, WhatsApp bookings, Instagram management
+Bookkeeping software
+R250
+e.g. Wave / Sage accounting, invoicing
+Social media promotion
+R700
+Boosted Instagram posts during peak wedding/matric season
+Laundry & kit maintenance
+R150
+Capes, towels, brush deep-cleaning products
+Business bank account fees
+R120
+Standard SA business transactional account
+Subtotal: Monthly costs
+R4,720 / month
+≈ R56,640 / year
+
+ Recurring Annual Costs
+Item
+Cost (ZAR/year)
+Notes
+Domain renewal
+R200
+Annual .co.za renewal
+Professional indemnity & public liability insurance
+R2,800
+Covers on-location work at client venues
+Major kit refresh/upgrade
+R6,000
+New product launches, replacing discontinued shades
+Continuing education / workshops
+R2,500
+1–2 masterclasses or technique workshops per year
+Accountant / annual tax return assistance
+R2,200
+Sole proprietor income tax submission
+Bridal fair / networking event stall fees
+R1,800
+1–2 local wedding expos per year
+Subtotal: Annual costs
+R15,500 / year
 
 ## Timeline and Milestones
 | Milestone | Target | Status |
