@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Makeup Services &amp; Pricing | Bridal, Shoots, Matric | Marlowe &amp; Muse</title>
+  <meta name="description" content="Search and filter bridal, editorial and special-occasion makeup packages with transparent prices in rand. On location across Gauteng.">
+  <meta name="keywords" content="makeup prices Johannesburg, bridal makeup cost, matric dance makeup price">
+  <meta name="author" content="Marlowe &amp; Muse">
+  <link rel="canonical" href="https://marloweandmuse.netlify.app/services.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Makeup Services &amp; Pricing | Bridal, Shoots, Matric | Marlowe &amp; Muse">
+  <meta property="og:description" content="Search and filter bridal, editorial and special-occasion makeup packages with transparent prices in rand. On location across Gauteng.">
+  <meta property="og:url" content="https://marloweandmuse.netlify.app/services.html">
+  <meta name="theme-color" content="#1f0f1a">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="services">
+
+  <header class="site-header">
+    <p class="logo">Marlowe <span>&amp; Muse</span></p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="enquiry.html">Enquire</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Services &amp; Pricing</h1>
+    <p>Every package includes skin prep and false lashes. A travel fee applies outside a 25km radius of Melville.</p>
+  </section>
+
+  <main>
+
+    <!-- Controls: tabs, search and sort. The list below is built by js/main.js from data/services.json -->
+    <section class="section" id="packages">
+      <h2>Packages</h2>
+      <div class="tabs" role="tablist" aria-label="Service categories" id="service-tabs">
+        <button role="tab" aria-selected="true" data-cat="all" type="button">All</button>
+        <button role="tab" aria-selected="false" data-cat="bridal" type="button">Bridal</button>
+        <button role="tab" aria-selected="false" data-cat="editorial" type="button">Editorial &amp; Shoots</button>
+        <button role="tab" aria-selected="false" data-cat="occasion" type="button">Special Occasion</button>
+      </div>
+      <div class="controls">
+        <div><label for="service-search">Search services</label>
+        <input type="search" id="service-search" placeholder="e.g. matric, shoot, trial"></div>
+        <div><label for="service-sort">Sort by</label>
+        <select id="service-sort"><option value="default">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option><option value="name">Name A-Z</option></select></div>
+      </div>
+      <p id="service-status" class="status" aria-live="polite"></p>
+      <div id="services-list"><noscript><p>Please enable JavaScript to view and filter our services, or <a href="contact.html">contact us</a> for a price list.</p></noscript></div>
+    </section>
+
+    <!-- Add-ons shown in a simple table -->
+    <section class="section section-alt">
+      <h2>Optional Add-ons</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Add-on</th>
+            <th>Price</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Individual lash application</td>
+            <td>R180</td>
+            <td>In addition to standard strip lashes</td>
+          </tr>
+          <tr>
+            <td>Airbrush foundation upgrade</td>
+            <td>R350</td>
+            <td>Recommended for video and large-print photography</td>
+          </tr>
+          <tr>
+            <td>Travel fee (25km+ from Melville)</td>
+            <td>From R250</td>
+            <td>Calculated when you enquire</td>
+          </tr>
+          <tr>
+            <td>Early start fee (before 06:00)</td>
+            <td>R400</td>
+            <td>Common for early wedding ceremonies</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section section-alt">
+      <h2>Frequently asked questions</h2>
+      <div class="accordion">
+        <div class="accordion-item">
+          <h3><button class="accordion-btn" type="button" aria-expanded="false" aria-controls="faq-1" id="faq-btn-1">How far in advance should I book?</button></h3>
+          <div class="accordion-panel" id="faq-1" role="region" aria-labelledby="faq-btn-1" hidden><p>Wedding dates book out 6-12 months ahead and most Saturdays fill early. Send an enquiry as soon as you have a date.</p></div>
+        </div>
+        <div class="accordion-item">
+          <h3><button class="accordion-btn" type="button" aria-expanded="false" aria-controls="faq-2" id="faq-btn-2">Is a trial included?</button></h3>
+          <div class="accordion-panel" id="faq-2" role="region" aria-labelledby="faq-btn-2" hidden><p>Bridal trials are booked separately from R2,200 and are the best way to lock in your final look.</p></div>
+        </div>
+        <div class="accordion-item">
+          <h3><button class="accordion-btn" type="button" aria-expanded="false" aria-controls="faq-3" id="faq-btn-3">Do you travel outside Johannesburg?</button></h3>
+          <div class="accordion-panel" id="faq-3" role="region" aria-labelledby="faq-btn-3" hidden><p>Yes, anywhere in Gauteng. A travel fee from R250 applies beyond 25km of Melville and is quoted when you enquire.</p></div>
+        </div>
+        <div class="accordion-item">
+          <h3><button class="accordion-btn" type="button" aria-expanded="false" aria-controls="faq-4" id="faq-btn-4">What products do you use?</button></h3>
+          <div class="accordion-panel" id="faq-4" role="region" aria-labelledby="faq-btn-4" hidden><p>Skin-first, long-wear formulas with full skin prep. Tell us about allergies or sensitivities in your enquiry.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Ready to check availability?</h2>
+      <p>Send through your date and a bit about your event.</p>
+      <a href="enquiry.html" class="btn btn-primary">Start an enquiry</a>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Marlowe &amp; Muse Makeup Studio - Johannesburg, South Africa</p>
+    <p>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="services.html">Services</a> |
+      <a href="gallery.html">Gallery</a> |
+      <a href="enquiry.html">Enquire</a> |
+      <a href="contact.html">Contact</a>
+    </p>
+    <p><a href="https://www.instagram.com/marloweandmuse" target="_blank" rel="noopener noreferrer">Follow us on Instagram</a></p>
+    <p>&copy; 2026 Marlowe &amp; Muse. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

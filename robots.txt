@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://marloweandmuse.netlify.app/sitemap.xml
