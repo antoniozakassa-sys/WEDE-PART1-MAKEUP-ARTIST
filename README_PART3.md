@@ -35,6 +35,7 @@
 
 ## Changelog
 ### Part 3 feedback edits (from Part 2 marks)
+- Added the necessary changes and fixed my problems in part2
 - Changed the logo from `<h1>` to `<p class="logo">` and the hero heading to `<h1>` on every page, so each page has one h1 (updated `.site-header h1` and `.hero h2` in styles.css).
 - Added a Gallery link to the navigation and footer of every page.
 
