@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://marloweandmuse.netlify.app/sitemap.xml
+Sitemap: https://wede-part1-makeup-artist.netlify.app/sitemap.xml

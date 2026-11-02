@@ -343,7 +343,7 @@ form select { width: 100%; box-sizing: border-box; }
 /* Gallery + lightbox */
 .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 15px; margin-bottom: 20px; }
 .gallery-item { margin: 0; background: #fff; border: 1px solid #ddd; }
-.gallery-item img { display: block; width: 100%; height: 190px; object-fit: cover; transition: transform .3s; }
+.gallery-item img { display: block; width: 100%; height: 190px; object-fit: cover; object-position: center 30%; transition: transform .3s; }
 .gallery-item a { display: block; overflow: hidden; }
 .gallery-item a:hover img { transform: scale(1.05); }
 .gallery-item figcaption { padding: 10px; font-size: 14px; }
