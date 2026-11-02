@@ -7,7 +7,7 @@
 - **Repository:** [your GitHub link]
 - **Run locally:** open with a local server (e.g. VS Code Live Server), because the services page loads `data/services.json` with `fetch()`.
 - **Forms:** in `enquiry.html`, replace `your-form-id` in the form `action` with your own Formspree form ID (https://formspree.io). Until then the AJAX send is simulated.
-- **SEO URLs:** replace `https://marloweandmuse.netlify.app/` in the canonical tags, `sitemap.xml`, `robots.txt` and the JSON-LD on `index.html` with your real URL.
+- **SEO URLs:** replace `https://wede-part1-makeup-artist.netlify.app/` in the canonical tags, `sitemap.xml`, `robots.txt` and the JSON-LD on `index.html` with your real URL.
 - **Gallery images:** `images/*.svg` are placeholders. Replace with your own optimised `.webp` or `.jpg` photos, keeping descriptive file names and updating the `alt` text.
 
 ## Features added
