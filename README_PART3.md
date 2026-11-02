@@ -4,12 +4,8 @@
 
 ## Part 3 summary
 - **Live site:** [https://app.netlify.com/projects/wede-part1-makeup-artist/agent-runs/6ae8a6102c0f540cec64fb08?session=6ae8a7f5934cfe735d64e2b7]
-- **Repository:** [your GitHub link]
-- **Run locally:** open with a local server (e.g. VS Code Live Server), because the services page loads `data/services.json` with `fetch()`.
-- **Forms:** in `enquiry.html`, replace `your-form-id` in the form `action` with your own Formspree form ID (https://formspree.io). Until then the AJAX send is simulated.
-- **SEO URLs:** replace `https://marloweandmuse.netlify.app/` in the canonical tags, `sitemap.xml`, `robots.txt` and the JSON-LD on `index.html` with your real URL.
-- **Gallery images:** `images/*.svg` are placeholders. Replace with your own optimised `.webp` or `.jpg` photos, keeping descriptive file names and updating the `alt` text.
-
+- **Repository:** [https://github.com/antoniozakassa-sys/WEDE-PART1-MAKEUP-ARTIST/blob/main/README_PART3.md]
+-
 ## Features added
 | Requirement | Where | How |
 |---|---|---|
@@ -39,7 +35,6 @@
 
 ## Changelog
 ### Part 3 feedback edits (from Part 2 marks)
-- [Add each lecturer feedback point here, e.g. "Fixed ...: changed ... in ... because ..."]
 - Changed the logo from `<h1>` to `<p class="logo">` and the hero heading to `<h1>` on every page, so each page has one h1 (updated `.site-header h1` and `.hero h2` in styles.css).
 - Added a Gallery link to the navigation and footer of every page.
 
@@ -54,10 +49,10 @@
 - Appended Part 3 styles to styles.css (tabs, accordion, modal, lightbox, map, errors, animations).
 
 ## References
-- Leaflet (2023) *Leaflet 1.9.4*. Available at: https://leafletjs.com
-- OpenStreetMap contributors (2026) *OpenStreetMap*. Available at: https://www.openstreetmap.org
-- MDN Web Docs (2026) *Fetch API*, *IntersectionObserver*, *Constraint validation*. Available at: https://developer.mozilla.org
-- W3C (2026) *WAI-ARIA Authoring Practices: Accordion, Tabs, Dialog*. Available at: https://www.w3.org/WAI/ARIA/apg/
-- Google (2026) *Search Central documentation*. Available at: https://developers.google.com/search
-- Schema.org (2026) *LocalBusiness*. Available at: https://schema.org/LocalBusiness
-- Formspree (2026) *Formspree documentation*. Available at: https://help.formspree.io
+- Leaflet (2023) *Leaflet 1.9.4*. Available at: <https://leafletjs.com>[Accessed 31 October 2026]
+- OpenStreetMap contributors (2026) *OpenStreetMap*. Available at: <https://www.openstreetmap.org>[Accessed 31 October 2026]
+- MDN Web Docs (2026) *Fetch API*, *IntersectionObserver*, *Constraint validation*. Available at: <https://developer.mozilla.org>[Accessed 31 October 2026]
+- W3C (2026) *WAI-ARIA Authoring Practices: Accordion, Tabs, Dialog*. Available at: <https://www.w3.org/WAI/ARIA/apg/>[Accessed 31 October 2026]
+- Google (2026) *Search Central documentation*. Available at: <https://developers.google.com/search>[Accessed 31 October 2026]
+- Schema.org (2026) *LocalBusiness*. Available at: <https://schema.org/LocalBusiness>[Accessed 31 October 2026]
+- Formspree (2026) *Formspree documentation*. Available at: <https://help.formspree.io>[Accessed 31 October 2026]
