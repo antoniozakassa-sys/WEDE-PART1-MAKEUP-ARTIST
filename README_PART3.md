@@ -3,7 +3,7 @@
 > Paste these sections into your existing README.md. Replace the placeholders in [square brackets].
 
 ## Part 3 summary
-- **Live site:** [your Netlify / GitHub Pages link]
+- **Live site:** [https://app.netlify.com/projects/wede-part1-makeup-artist/agent-runs/6ae8a6102c0f540cec64fb08?session=6ae8a7f5934cfe735d64e2b7]
 - **Repository:** [your GitHub link]
 - **Run locally:** open with a local server (e.g. VS Code Live Server), because the services page loads `data/services.json` with `fetch()`.
 - **Forms:** in `enquiry.html`, replace `your-form-id` in the form `action` with your own Formspree form ID (https://formspree.io). Until then the AJAX send is simulated.
